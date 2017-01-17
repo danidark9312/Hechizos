@@ -8,7 +8,7 @@
 <head>
 
 <script>
-var menuOption = 1;
+var menuOption = 4;
 </script>
 
 <%
@@ -47,17 +47,8 @@ String isContactUs = request.getParameter("contactenos");
 <body>
 
 <%@include file="includes/menu.jsp" %>
-  
   <div class="separator"></div>
   
-  <div class="carousel">
-  <div>
-  	<img class="car-image" src="img/ciencia-en-parejas-felices-discusiones-euroresidentes.jpg"  />
-  	
-  </div>
-  <div><img class="car-image" src="img/GayLove4.jpg"/></div>
-  <div><img class="car-image" src="img/parejaFeliz.jpg"/></div>
-</div>
 <div class="full-width-ban" style="margin: 4px 0">
 <h2><img src="img/united_states.jpg" class="usa-image"/>
 	<span style="vertical-align: middle">LLamanos ahora <%=telephone%></span> 
@@ -68,7 +59,7 @@ String isContactUs = request.getParameter("contactenos");
 <div class="separator" style="margin-bottom: 5px"></div>
 			
   
-<div class="container text-center">    
+<div class="container">    
   <div class="row">
     <%@include file="includes/leftPanel.jsp" %> 
     <div class="col-sm-6">
@@ -78,48 +69,59 @@ String isContactUs = request.getParameter("contactenos");
       <div class="row">
 					<div class="col-sm-12">
 						<div class="well" style="color: white">
-							<h2>Quienes Somos</h2>
+							<center>
+								<h2>Como separar dos personas</h2>
+							</center>
 							<br />
 
-							<p>Somos una organización comprometida con la asesoria
-								esotérica, ofrecemos ayuda y bienestar a las personas que se
-								encuentran pasando por momentos difíciles en el amor, en la
-								salud o que tiene problemas de dinero. Por eso nos
-								especializamos en brindar excelente calidad a nuestros clientes,
-								mediante la prestación de servicios de consultoría, asesoría,
-								proyectos integrales de hechicería</p>
-							<br /> <img src="img/las-parejas-mas-felices-engordan-mas-rapido-38661-jpg_604x0.jpg" width="100%" height="400px">
+							<p>A continuación lo guiaremos por unos sencillos pasos para
+								realizar un hechizo de separación, trate de seguir los pasos tal
+								cual se indican y en la medida de lo posible de estar acompañado
+								de uno de nuestros maestros, recuerde que la asesoría es
+								gratuita</p>
+
+							<h3>Ingredientes</h3>
+							<ul style="text-align: left;">
+								<li>1 Limón</li>
+								<li>1 Clavo</li>
+								<li>1 Papel blanco con el nombre de la personas a separar</li>
+							</ul>
+							<div class="row">
+								<div class="col-md-6 ingrediente">
+									<img src="img/limon.jpg">
+								</div>
+								<div class="col-md-6 ingrediente">
+									<img src="img/clavo.jpg">
+								</div>
+							</div>
+
+							<br />
+							<h3>Procedimiento</h3>
+							<p>Se escoge el limón verde, se corta por la mitad como para
+								sacar el jugo, pero que el limón no se separe, en el papel
+								pequeño escribimos el nombre de la persona que queremos alejar y
+								en otro el nombre de la persona de la que queremos que se aleje,
+								los dos papeles se junta y se menten entre el limón, luego debes
+								atravesar el limón con el clavo de acero y debes tirarlo al agua
+								corriente, puede ser un rio o un pequeño arroyo, esto puede
+								repetirse cada mes</p>
+
+							<div style="text-align: center;">
+								<img src="img/celos.jpg" style="border-radius: 20px;"/>
+							</div> 
+
+							<div class="final-note">
+								Sino obtiene resultados, o si requiere que su caso sea estudiado
+								por uno de nuestros maestros, lo animamos a inicar el chat o a
+								llamar al número
+								<strong><%=telephone%></strong>
+								para tomar parte en su situación y recomendarle el mejor hechizo
+							</div>
 						</div>
 					</div>
+					
 
 				</div>
-      <div class="outline">
-      <div class="row">
-        <div class="col-sm-3">
-           <img src="img/dinero.jpg" class="img-circle index-link" height="55" width="55" alt="Avatar">
-        </div>
-        <div class="col-sm-9">
-          <div class="big-text well">
-            <p>Prosperidad, dinero, amor y mas !</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-3">
-          
-           <div class="col-sm-3">
-           <img src="img/img5.jpg" class="img-circle index-link" height="55" width="55" alt="Avatar">
-        </div>
-          
-        </div>
-        <div class="col-sm-9">
-          <div class="big-text well">
-            <p>Es usted timido, le da miedo acercarse a una persona para hablarle?</p>
-          </div>
-        </div>
-      </div>
-      
-      </div>     
     </div>
     <%@include file="includes/rightPanel.jsp" %>
   </div>

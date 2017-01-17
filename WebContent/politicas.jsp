@@ -8,7 +8,7 @@
 <head>
 
 <script>
-var menuOption = 1;
+var menuOption = 3;
 </script>
 
 <%
@@ -47,17 +47,8 @@ String isContactUs = request.getParameter("contactenos");
 <body>
 
 <%@include file="includes/menu.jsp" %>
-  
   <div class="separator"></div>
   
-  <div class="carousel">
-  <div>
-  	<img class="car-image" src="img/ciencia-en-parejas-felices-discusiones-euroresidentes.jpg"  />
-  	
-  </div>
-  <div><img class="car-image" src="img/GayLove4.jpg"/></div>
-  <div><img class="car-image" src="img/parejaFeliz.jpg"/></div>
-</div>
 <div class="full-width-ban" style="margin: 4px 0">
 <h2><img src="img/united_states.jpg" class="usa-image"/>
 	<span style="vertical-align: middle">LLamanos ahora <%=telephone%></span> 
@@ -68,7 +59,7 @@ String isContactUs = request.getParameter("contactenos");
 <div class="separator" style="margin-bottom: 5px"></div>
 			
   
-<div class="container text-center">    
+<div class="container">    
   <div class="row">
     <%@include file="includes/leftPanel.jsp" %> 
     <div class="col-sm-6">
@@ -78,48 +69,34 @@ String isContactUs = request.getParameter("contactenos");
       <div class="row">
 					<div class="col-sm-12">
 						<div class="well" style="color: white">
-							<h2>Quienes Somos</h2>
+							<center>
+								<h2>Politicas</h2>
+							</center>
 							<br />
-
-							<p>Somos una organización comprometida con la asesoria
-								esotérica, ofrecemos ayuda y bienestar a las personas que se
-								encuentran pasando por momentos difíciles en el amor, en la
-								salud o que tiene problemas de dinero. Por eso nos
-								especializamos en brindar excelente calidad a nuestros clientes,
-								mediante la prestación de servicios de consultoría, asesoría,
-								proyectos integrales de hechicería</p>
-							<br /> <img src="img/las-parejas-mas-felices-engordan-mas-rapido-38661-jpg_604x0.jpg" width="100%" height="400px">
+							<p style="color: white"><%=title%>
+								por ningún motivo, comercializa, cede o permuta, información
+								proporcionada por clientes o miembros, así mismo, se ha tomado
+								las medidas necesarias, para la protección de datos, que usted
+								como usuario, puede o no suministrar vía web, siendo 100%
+								confidencial. Los formularios en el sitio web, solicitan
+								información que es utilizada en el proceso de elaboración de los
+								rituales solicitados, y él envió de ofertas o información de
+								nuestros 	servicios, esto implica el consentimiento expreso del
+								interesado a enviar sus datos de carácter personal Usted puede
+								ejercitar sus derechos de acceso, rectificación y cancelación
+								vía correo electrónico al administrador de este sitio. La
+								recopilación o eliminación de datos personales, se puede
+								realizar enviándonos un mensaje a la siguiente dirección:
+								<%=contact%>. El sitio se reserva el derecho de modificar su
+								política de privacidad y protección de datos de forma
+								discrecional, en cualquier momento y sin previo aviso. Los
+								cambios que afecten al tratamiento de datos personales se
+								comunicarán a los interesados por correo electrónico.
+							</p>
 						</div>
 					</div>
 
 				</div>
-      <div class="outline">
-      <div class="row">
-        <div class="col-sm-3">
-           <img src="img/dinero.jpg" class="img-circle index-link" height="55" width="55" alt="Avatar">
-        </div>
-        <div class="col-sm-9">
-          <div class="big-text well">
-            <p>Prosperidad, dinero, amor y mas !</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-3">
-          
-           <div class="col-sm-3">
-           <img src="img/img5.jpg" class="img-circle index-link" height="55" width="55" alt="Avatar">
-        </div>
-          
-        </div>
-        <div class="col-sm-9">
-          <div class="big-text well">
-            <p>Es usted timido, le da miedo acercarse a una persona para hablarle?</p>
-          </div>
-        </div>
-      </div>
-      
-      </div>     
     </div>
     <%@include file="includes/rightPanel.jsp" %>
   </div>

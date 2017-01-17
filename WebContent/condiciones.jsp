@@ -8,7 +8,7 @@
 <head>
 
 <script>
-var menuOption = 1;
+var menuOption = 2;
 </script>
 
 <%
@@ -47,17 +47,8 @@ String isContactUs = request.getParameter("contactenos");
 <body>
 
 <%@include file="includes/menu.jsp" %>
-  
   <div class="separator"></div>
   
-  <div class="carousel">
-  <div>
-  	<img class="car-image" src="img/ciencia-en-parejas-felices-discusiones-euroresidentes.jpg"  />
-  	
-  </div>
-  <div><img class="car-image" src="img/GayLove4.jpg"/></div>
-  <div><img class="car-image" src="img/parejaFeliz.jpg"/></div>
-</div>
 <div class="full-width-ban" style="margin: 4px 0">
 <h2><img src="img/united_states.jpg" class="usa-image"/>
 	<span style="vertical-align: middle">LLamanos ahora <%=telephone%></span> 
@@ -68,7 +59,7 @@ String isContactUs = request.getParameter("contactenos");
 <div class="separator" style="margin-bottom: 5px"></div>
 			
   
-<div class="container text-center">    
+<div class="container">    
   <div class="row">
     <%@include file="includes/leftPanel.jsp" %> 
     <div class="col-sm-6">
@@ -78,48 +69,29 @@ String isContactUs = request.getParameter("contactenos");
       <div class="row">
 					<div class="col-sm-12">
 						<div class="well" style="color: white">
-							<h2>Quienes Somos</h2>
+							<center><h2>Condiciones de uso</h2></center>
 							<br />
-
-							<p>Somos una organización comprometida con la asesoria
-								esotérica, ofrecemos ayuda y bienestar a las personas que se
-								encuentran pasando por momentos difíciles en el amor, en la
-								salud o que tiene problemas de dinero. Por eso nos
-								especializamos en brindar excelente calidad a nuestros clientes,
-								mediante la prestación de servicios de consultoría, asesoría,
-								proyectos integrales de hechicería</p>
-							<br /> <img src="img/las-parejas-mas-felices-engordan-mas-rapido-38661-jpg_604x0.jpg" width="100%" height="400px">
+							<ul style="text-align: left;">
+								<li>Esta página es de uso exclusivo para mayores de edad,
+									el uso de este sitio web está restringido exclusivamente para
+									las personas con mayoría legal en su país de residencia</li>
+								<li>De acuerdo con la legislación vigente, se establece que
+									las predicciones, videncias, lecturas de tarot, hechizos y
+									amarres tienen fines ayuda personal y entretenimiento</li>
+								<li>Estos servicios no reemplaza la atención médica, legal,
+									financiera, psicológica y psiquiátrica</li>
+								<li>Todas las personas son diferentes, por tanto los
+									resultados pueden variar de una persona a otra</li>
+									<center><h3>Valor de la llamada</h3></center>
+								<p>el costo del minuto de la llamada puede variar según plan
+									del operador de teléfono de cada usuario, nuestra asesoría
+									telefónica es gratuita</p>
+									
+							</ul>
 						</div>
 					</div>
 
 				</div>
-      <div class="outline">
-      <div class="row">
-        <div class="col-sm-3">
-           <img src="img/dinero.jpg" class="img-circle index-link" height="55" width="55" alt="Avatar">
-        </div>
-        <div class="col-sm-9">
-          <div class="big-text well">
-            <p>Prosperidad, dinero, amor y mas !</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-3">
-          
-           <div class="col-sm-3">
-           <img src="img/img5.jpg" class="img-circle index-link" height="55" width="55" alt="Avatar">
-        </div>
-          
-        </div>
-        <div class="col-sm-9">
-          <div class="big-text well">
-            <p>Es usted timido, le da miedo acercarse a una persona para hablarle?</p>
-          </div>
-        </div>
-      </div>
-      
-      </div>     
     </div>
     <%@include file="includes/rightPanel.jsp" %>
   </div>

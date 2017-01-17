@@ -1,0 +1,124 @@
+.well{
+	/*background-color: #696969;*/
+	border: 3px #989898 solid;
+}
+
+body{
+	background-color: black !important; 
+}
+
+.car-image{
+	width: 80%; 
+ 	height: 400px 
+}
+.carousel div{
+	text-align: center;
+}
+
+.carousel{
+	margin-bottom: 0px;
+	margin-top: 5;
+
+}
+
+.index-link{
+	width: 120px;
+	height: 120px;
+	margin-bottom: 15px;
+}
+
+h2,h3,h4{
+	color:white;
+}
+
+.outline .row{
+	background-color: #696969;
+    padding: 17px 0px;
+    margin: 10px 0px;
+    border-radius: 25px;
+    border: 3px double var(--seg-color);
+}
+
+.red-add{
+	color: white;
+	background-color: var(--seg-color);
+}
+
+.big-text{
+	font-size: x-large;
+	color: white;
+}
+
+.add{
+	background-color: black !important;
+	color:white;
+	
+}
+
+.add p{
+	color:white;
+	
+}
+
+.add h4.title{
+	color: white;
+	font-weight: bold;
+	margin: 5px 0; 
+}
+div.red-add-container{
+	background-color: var(--seg-color);
+	display: inline-block;
+    border-radius: 5px;
+    margin: 0px -9px;
+}
+	
+.innerText h2{ 
+	position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%;
+}
+
+.full-width-ban{
+	background-color: white;
+	text-align: center;
+	
+}
+
+.full-width-ban h2{
+	color: var(--seg-color);
+	margin: 4px 0;	
+	
+}
+
+.usa-image{
+	width: 30px;margin: 4px;
+    width: 30px;
+    margin: 4px;
+    border: #dedede 4px solid;
+    border-radius: 13pc;
+}
+
+.right-panel{
+	float: right;
+}
+
+.final-note{
+	margin: 10px;
+    padding: 10px;
+    background-color: white;
+    color: var(--seg-color);
+    border-radius: 5px;
+    border: solid red 2px;
+}
+
+.ingrediente{
+	text-align: center;	
+}
+
+.ingrediente img{
+	border: solid var(--seg-color) 6px;
+    border-radius: 50px;
+    width: 200px;
+    height: 180px;	
+}
