@@ -17,7 +17,7 @@
 			data-toggle="dropdown" href="#">Hechizos<span class="caret"></span></a>
 			<ul class="dropdown-menu">
 				<li><a href="separarPersonas.jsp">Separar dos personas</a></li>
-				<li><a href="#">Regresar expareja</a></li>
+				<li><a href="regresarEx.jsp">Regresar expareja</a></li>
 				<li><a href="#">Abundancia y progreso</a></li>
 				<li><a href="#">Buena suerte</a></li>
 				<li><a href="#">Consegur empleo</a></li>
